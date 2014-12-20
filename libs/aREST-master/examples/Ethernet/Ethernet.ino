@@ -12,13 +12,11 @@
 #include <aREST.h>
 #include <avr/wdt.h>
 
-
-
 // Enter a MAC address for your controller below.
 byte mac[] = { 0x90, 0xA2, 0xDA, 0x0E, 0xFE, 0x40 };
 
 // IP address in case DHCP fails
-IPAddress ip(192,168,1,2);
+IPAddress ip(192,168,2,2);
 
 // Ethernet server
 EthernetServer server(80);
