@@ -73,7 +73,7 @@ void setup(void)
   //rest.function("kaku", kakuControl);
   rest.function("blokker", blokkerControl);
   rest.function("action", actionControl);
-  //rest.function("virtual", virtualWireControl);
+  rest.function("virtual", virtualWireControl);
 
   // Give name and ID to device
   rest.set_id("008");
